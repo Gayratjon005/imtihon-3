@@ -1,0 +1,44 @@
+--root {
+  --primary-color: #ffffff;
+  --secondary-color: #000000;
+  --primary-text-color: #000000;
+  --secondary-text-color: #ffffff;
+}
+
+.circles {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.circle-1 {
+  background-color: #ff0000;
+}
+.circle-2 {
+  background-color: #00ff00;
+}
+
+input {
+  margin-top: 20px;
+  padding: 5px;
+}
+
+.circle--active {
+  background-color: #0000ff;
+  padding: 10px;
+  color: #fff;
+}
+
+.dark {
+  background-color: #000;
+  color: #fff !important;
+}
+.cards {
+  margin-left: 200px;
+}
